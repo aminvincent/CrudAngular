@@ -14,8 +14,6 @@ app.controller("CRUDController", function($scope){
 
         $scope.EmpList.push(emp); //push the emp to object to the array
         ClearModel(); //this will reset all the values to the default
-
-
     };
 
     //function delete data
